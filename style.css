@@ -138,7 +138,7 @@ nav .logo {
     width: 0;
     height: 0;
     overflow: hidden;
-    top: -50px;
+    top: -60px;
     left: 0;
     text-align: center;
     background: rgba(0, 0, 0, 0);
@@ -154,7 +154,7 @@ nav .logo {
 }
 
 .overlay #video {
-    height: 600px;
+    height: 500px;
     width: 1000px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
 }
@@ -201,15 +201,6 @@ nav .logo {
 }
 
 .gridcontainer1 {
-    /* margin: 0 auto;
-    background-image: url(daniel-korpai-hbTKIbuMmBI-unsplash.jpg);
-    width: 70%;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative; */
-
     width: 100%;
     height: 100vh;
     max-height: 900px;
@@ -218,6 +209,15 @@ nav .logo {
     grid-template-rows: 50% 50%;
     grid-template-areas: "first grid-pict third"
         "second grid-pict fourth";
+}
+
+.gridcontainer1 h2 {
+    font-size: 1.75rem;
+}
+
+.gridcontainer1 p {
+    font-size: 1rem;
+    text-align: center;
 }
 
 .gridcontainer1 .first {
@@ -281,6 +281,16 @@ nav .logo {
     border-top: 2px solid rgba(188, 186, 186, .05);
 }
 
+.gridcontainer2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.gridcontainer2 p {
+    font-size: 1rem;
+    color: grey;
+}
+
 .gridcontainer2 .picture1 {
     grid-area: pict1;
     width: 100%;
@@ -315,7 +325,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 2rem;
+    margin-right: 4rem;
     margin-left: auto;
 }
 
@@ -325,7 +335,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-right: auto;
 }
 
